@@ -14,7 +14,7 @@ async function getQuote(url) {
 getQuote(api_url);
 function share(){
     window.open(href="https://twitter.com/intent/tweet?text="+ quote.innerHTML,
-    "Twutter Window","width=600,height=600" )
+    "Twitter Window","width=600,height=600" )
 }
 
 snd_btn.addEventListener("click",()=>{
